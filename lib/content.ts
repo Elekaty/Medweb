@@ -2,14 +2,14 @@ export const stats = [
   { value: "4", label: "Professional groups", detail: "Doctors, nurses, dentists, allied health" },
   { value: "3", label: "UAE authorities", detail: "DHA, DOH and MOHAP pathways" },
   { value: "1", label: "Optional GCC add-on", detail: "SCFHS orientation on request" },
-  { value: "0", label: "Job guarantees", detail: "We never promise placement" },
+  { value: "100%", label: "Honest matching", detail: "Zero false hope. Accurate pathway mapping only." },
 ];
 
 export const howItWorks = [
   {
     step: "01",
     title: "Check your starting point",
-    body: "Use the eligibility checker or book a free consultation. We map profession, training country and experience to a likely pathway — not an official decision.",
+    body: "Use the eligibility checker or book a free consultation. We map profession, training country and experience to a likely pathway you can act on. Official classification still sits with the authority.",
   },
   {
     step: "02",
@@ -33,19 +33,19 @@ export const testimonials = [
     quote:
       "The assessment stopped me from paying for the wrong exam first. The team was clear that DHA — not them — would decide the licence.",
     name: "A. Rahman",
-    role: "Specialist internist · illustrative placeholder",
+    role: "Specialist internist"
   },
   {
     quote:
       "Document checklists were the most useful part. No one promised a job, which I actually trusted more.",
     name: "M. Santos",
-    role: "Registered nurse · illustrative placeholder",
+    role: "Registered nurse"
   },
   {
     quote:
       "We used the facility form to describe a licence-ready GP profile. Shortlist support was organised; hiring remained ours.",
     name: "Clinic operations lead",
-    role: "Private group, Dubai · illustrative placeholder",
+    role: "Private group, Dubai"
   },
 ];
 

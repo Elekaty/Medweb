@@ -58,7 +58,7 @@ export default async function ResourceArticlePage({ params }: Props) {
             ))}
           </div>
           <div className="mt-10 flex flex-col gap-3 sm:flex-row">
-            <CtaLink href="/eligibility">Check eligibility</CtaLink>
+            <CtaLink href="/eligibility">Map your pathway</CtaLink>
             <CtaLink href="/resources" variant="outline">
               All guides
             </CtaLink>

@@ -10,15 +10,15 @@ export const metadata: Metadata = {
 const points = [
   {
     title: "Licence-aware shortlists",
-    body: "Describe the role and preferred authority. We help you think about who is realistically licence-ready — we do not fill the seat for you.",
+    body: "Describe the role and preferred authority. We help you identify who is realistically licence-ready, so your hiring team stays in control of the seat.",
   },
   {
     title: "How staffing support works",
-    body: "You send requirements. We may introduce candidates who are already in a licensing programme. Interviews, offers, visas and privileging stay with the facility.",
+    body: "You send requirements. We may introduce candidates already progressing through a licensing programme. Interviews, offers, visas and privileging stay with the facility.",
   },
   {
-    title: "Transparent limits",
-    body: "We will not claim a candidate is licensed until the authority says so. We will not guarantee start dates tied to DHA, DOH or MOHAP queues.",
+    title: "Authority-first status",
+    body: "A candidate is licensed when the authority says so. Start dates stay tied to real DHA, DOH or MOHAP queues — shared with you as they stand.",
   },
 ];
 
@@ -27,8 +27,8 @@ export default function HospitalsPage() {
     <>
       <PageHero
         kicker="For hospitals & clinics"
-        title="Request licence-ready talent without outsourcing the hire."
-        description="MedLicense Hub supports facilities that need clinicians already progressing through UAE licensing. You remain the employer. Placement is not guaranteed."
+        title="Build licence-ready shortlists with a partner who respects your hire."
+        description="MedLicense Hub supports facilities that need clinicians already progressing through UAE licensing. You stay the employer. Matching is structured support — with zero false hope."
       />
       <Section>
         <div className="grid gap-4 md:grid-cols-3">

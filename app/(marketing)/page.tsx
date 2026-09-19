@@ -18,15 +18,18 @@ export default function HomePage() {
           <div>
             <p className="text-sm font-medium tracking-wide text-teal-dark uppercase">UAE / GCC licensing consultancy</p>
             <h1 className="mt-4 text-4xl font-semibold leading-tight sm:text-5xl">
-              Clear licensing support for clinicians and facilities — never a fake guarantee.
+              Get licensed in the UAE &amp; GCC with clear, structured support — no empty promises.
             </h1>
             <p className="mt-5 max-w-xl text-lg leading-8 text-slate-600">{site.tagline}</p>
-            <p className="mt-4 max-w-xl text-sm leading-6 text-slate-500">
+            <p className="mt-3 max-w-xl text-sm font-medium text-navy-deep">
+              Zero false hope. Accurate pathway mapping only.
+            </p>
+            <p className="mt-3 max-w-xl text-sm leading-6 text-slate-500">
               Official licences are issued only by DHA, DOH, MOHAP or other authorities. Job placement is not guaranteed.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <CtaLink href="/eligibility">
-                Check eligibility <ArrowRight data-icon="inline-end" />
+                Map your pathway <ArrowRight data-icon="inline-end" />
               </CtaLink>
               <CtaLink href="/contact" variant="outline">
                 Book a free consultation
@@ -39,13 +42,13 @@ export default function HomePage() {
               href="/candidates"
               icon={<Stethoscope className="size-5" />}
               title="I am a healthcare professional"
-              body="Doctors, nurses, dentists and allied health: understand DHA / DOH / MOHAP pathways, packages and next documents."
+              body="Doctors, nurses, dentists and allied health: map DHA, DOH and MOHAP pathways, documents and the right support package."
             />
             <PathCard
               href="/hospitals"
               icon={<Building2 className="size-5" />}
               title="I represent a hospital or clinic"
-              body="Request licence-ready shortlists and outline staffing needs. You remain the employer; we do not place on your behalf as a guarantee."
+              body="Request licence-ready shortlists and outline staffing needs. You stay the employer; we stay a structured partner."
             />
           </div>
         </div>
@@ -66,7 +69,7 @@ export default function HomePage() {
       <Section muted>
         <div className="max-w-2xl">
           <p className="text-sm font-medium tracking-wide text-teal-dark uppercase">How it works</p>
-          <h2 className="mt-2 text-3xl font-semibold">Four steps. You stay in control of every filing.</h2>
+          <h2 className="mt-2 text-3xl font-semibold">Four clear steps. You’re always in control.</h2>
         </div>
         <div className="mt-10 grid gap-4 md:grid-cols-2">
           {howItWorks.map((item) => (
@@ -83,10 +86,10 @@ export default function HomePage() {
         <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
           <div>
             <p className="text-sm font-medium tracking-wide text-teal-dark uppercase">Packages</p>
-            <h2 className="mt-2 text-3xl font-semibold">Support programmes, not licences.</h2>
+            <h2 className="mt-2 text-3xl font-semibold">Structured support packages for real licensing pathways.</h2>
           </div>
           <CtaLink href="/packages" variant="outline" size="lg">
-            All packages
+            Compare packages
           </CtaLink>
         </div>
         <div className="mt-10 grid gap-4 md:grid-cols-3">
@@ -98,9 +101,9 @@ export default function HomePage() {
       </Section>
 
       <Section muted>
-        <h2 className="text-3xl font-semibold">What clients say — illustrative only</h2>
+        <h2 className="text-3xl font-semibold">What professionals and facilities say</h2>
         <p className="mt-2 max-w-2xl text-sm text-muted-foreground">
-          These quotes are placeholders for layout. Replace with consented testimonials before launch.
+          Voices that reflect how we work. Consented testimonials will replace this sample set at launch.
         </p>
         <div className="mt-10 grid gap-4 md:grid-cols-3">
           {testimonials.map((item) => (
@@ -117,17 +120,17 @@ export default function HomePage() {
 
       <Section>
         <div className="rounded-2xl bg-navy-deep px-6 py-12 text-white sm:px-10">
-          <h2 className="text-3xl font-semibold text-white">Ready to talk through your file?</h2>
+          <h2 className="text-3xl font-semibold text-white">Ready to map your licensing pathway?</h2>
           <p className="mt-3 max-w-2xl text-white/75">
-            Book a free consultation or run the eligibility checker. We will be explicit about what
-            we can and cannot do.
+            Book a free consultation or see your likely pathway in minutes. Accurate next steps —
+            the same clarity for clinicians and hospitals.
           </p>
           <div className="mt-6 flex flex-col gap-3 sm:flex-row">
             <CtaLink href="/contact" className="bg-white text-navy-deep hover:bg-slate-100">
               Book a free consultation
             </CtaLink>
             <CtaLink href="/eligibility" variant="outline" className="border-white/30 bg-transparent text-white hover:bg-white/10">
-              Eligibility checker
+              Map your pathway
             </CtaLink>
           </div>
         </div>

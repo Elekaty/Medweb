@@ -14,11 +14,11 @@ const supports = [
   },
   {
     title: "Exam planning",
-    body: "Study roadmaps where an exam or assessment applies. We prepare you; we do not sit or pass the exam for you.",
+    body: "Study roadmaps where an exam or assessment applies, so you sit prepared and in control of the next step.",
   },
   {
     title: "Career matching (optional)",
-    body: "If you ask, we can share vacancies or facility interest. Employers decide. Job placement is not guaranteed.",
+    body: "Share vacancies and facility interest when you want matching support. Employers hire; we keep that process honest.",
   },
 ];
 
@@ -27,13 +27,13 @@ export default function CandidatesPage() {
     <>
       <PageHero
         kicker="For professionals"
-        title="Licensing support first. Careers second. Guarantees never."
-        description="Doctors, nurses, dentists and allied health professionals use MedLicense Hub to prepare UAE authority applications with a case manager — while staying clear that authorities issue licences and employers hire."
+        title="Structured licensing support built for clinicians."
+        description="Doctors, nurses, dentists and allied health professionals work with a case manager to prepare UAE authority applications — with the same clarity for every file."
       >
         <div className="flex flex-col gap-3 sm:flex-row">
-          <CtaLink href="/eligibility">Check eligibility</CtaLink>
+          <CtaLink href="/eligibility">Map your pathway</CtaLink>
           <CtaLink href="/packages" variant="outline">
-            View packages
+            Compare packages
           </CtaLink>
         </div>
       </PageHero>

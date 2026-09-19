@@ -13,8 +13,8 @@ export default function JobsPage() {
     <>
       <PageHero
         kicker="Jobs"
-        title="Openings we can talk about — never a promised contract."
-        description="Listings are illustrative for Phase 1. Request matching support if you want to be considered. Employers hire; we do not."
+        title="Openings we can discuss with matching support."
+        description="Browse current listings or request matching. Employers make every hiring decision. Job placement is not guaranteed."
       />
       <Section>
         <JobNotice className="mb-8" />
@@ -34,7 +34,7 @@ export default function JobsPage() {
         <div className="mt-12 max-w-2xl">
           <h2 className="text-2xl font-semibold">Request matching support</h2>
           <p className="mt-2 mb-6 text-sm text-muted-foreground">
-            Tell us your profession and preferred emirate. Matching is optional assistance, not a placement service with outcomes attached.
+            Tell us your profession and preferred emirate. Matching support is optional — employers hire.
           </p>
           <ConsultationForm
             defaultAudience="professional"

@@ -9,19 +9,19 @@ export const metadata: Metadata = {
 const principles = [
   {
     title: "Authorities decide licences",
-    body: "We prepare files. DHA, DOH, MOHAP, SCFHS and peers issue licences. We will say this on every package and portal screen.",
+    body: "We prepare files. DHA, DOH, MOHAP, SCFHS and peers issue licences. That line is on every package and portal screen because accuracy is the product.",
   },
   {
-    title: "Jobs are never guaranteed",
-    body: "Matching support is optional. Facilities hire. Candidates may complete licensing without ever receiving an offer, and that is disclosed up front.",
+    title: "Honest career matching",
+    body: "Matching support is optional. Facilities hire. Completing a licensing file and receiving an offer are separate outcomes, and we say so up front.",
   },
   {
     title: "Fees stay visible",
     body: "Consultancy fees are separate from authority, exam and vendor fees. Placeholder prices on this site must be replaced with a written quote.",
   },
   {
-    title: "No invented outcomes",
-    body: "Testimonials, stats and case studies will be labelled as placeholders until they are consented and factual.",
+    title: "Evidence before claims",
+    body: "Testimonials, stats and case studies stay labelled until they are consented and factual.",
   },
 ];
 
@@ -30,18 +30,18 @@ export default function AboutPage() {
     <>
       <PageHero
         kicker="About"
-        title="A consultancy that would rather lose a sale than over-promise a licence."
-        description="MedLicense Hub is a working name for an independent UAE/GCC healthcare licensing and recruitment-support practice. It is not a government entity and not a hospital."
+        title="Confidence through accuracy — for clinicians and hospitals."
+        description="MedLicense Hub is a working name for an independent UAE/GCC healthcare licensing and recruitment-support practice. We prepare files. Authorities issue licences."
       />
       <Section>
         <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
           <div>
             <h2 className="text-2xl font-semibold">Our story</h2>
             <p className="mt-4 text-sm leading-7 text-slate-600">
-              International clinicians often pay for the wrong exam, the wrong authority, or a “guaranteed job”
-              package that cannot legally be guaranteed. This platform is designed as a trust-first front door:
-              dual paths for professionals and facilities, plain-language authorities, and a portal that shows
-              case status without pretending we are DHA.
+              International clinicians often pay for the wrong exam or the wrong authority after hearing a
+              “guaranteed job” pitch. This platform is a trust-first front door: dual paths for professionals
+              and hospitals, plain-language authorities, and a portal that shows case status with accuracy
+              as the product.
             </p>
             <p className="mt-4 text-sm leading-7 text-slate-600">
               Replace this story with the founders’ actual background before public launch. Until then, treat

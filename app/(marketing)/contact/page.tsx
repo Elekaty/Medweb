@@ -14,7 +14,7 @@ export default function ContactPage() {
       <PageHero
         kicker="Contact"
         title="Book a free consultation."
-        description="Tell us whether you are a clinician or a facility. We will prepare a licensing conversation — not a job offer and not an official eligibility letter."
+        description="Tell us whether you are a clinician or a facility. We will map an accurate licensing conversation — with the same clarity we use on every file."
       />
       <Section>
         <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr]">

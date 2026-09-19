@@ -11,8 +11,8 @@ export default function EligibilityPage() {
     <>
       <PageHero
         kicker="Eligibility"
-        title="Find a sensible first pathway — not an official decision."
-        description="Answer four questions about profession, specialty, country of training and experience. We suggest a package to review. DHA, DOH, MOHAP or SCFHS still make every licensing decision."
+        title="Map your likely licensing pathway in four questions."
+        description="Profession, specialty, training country and experience. You receive a recommended package to review. DHA, DOH, MOHAP or SCFHS still make every licensing decision."
       />
       <Section>
         <div className="mx-auto max-w-3xl">

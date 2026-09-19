@@ -51,8 +51,7 @@ export function EligibilityChecker() {
       <CardHeader className="gap-4">
         <CardTitle className="text-xl">Eligibility checker</CardTitle>
         <CardDescription>
-          Four short questions. The result is a suggested package to review — not a licence,
-          classification or job offer.
+          Four short questions. You receive a suggested package to review. Official classification still sits with the authority.
         </CardDescription>
         <Stepper steps={steps} current={Math.min(step, 3)} />
       </CardHeader>
