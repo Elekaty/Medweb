@@ -2,7 +2,7 @@ export const site = {
   name: "MedLicense Hub",
   legalName: "MedLicense Hub",
   tagline:
-    "Licensing support and successful hospital placement for healthcare professionals and facilities across the UAE and GCC.",
+    "Structured licensing support plus active hospital matching for doctors, nurses, dentists and facilities across the UAE and GCC.",
   description:
     "Independent consultancy helping doctors, nurses, dentists and allied health professionals prepare DHA, DOH, MOHAP and optional SCFHS licensing pathways — and placing licence-ready talent with hospitals and clinics.",
   url: "https://github.com/Elekaty/Medweb",

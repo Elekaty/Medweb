@@ -13,21 +13,31 @@ export default function HomePage() {
   return (
     <>
       <section className="border-b bg-[linear-gradient(180deg,#f8fafc_0%,#ffffff_100%)]">
-        <div className="mx-auto grid max-w-6xl gap-10 px-4 py-16 sm:px-6 lg:grid-cols-[1.1fr_0.9fr] lg:px-8 lg:py-24">
+        <div className="mx-auto grid max-w-6xl gap-12 px-4 py-16 sm:px-6 lg:grid-cols-[1.1fr_0.9fr] lg:items-start lg:gap-10 lg:px-8 lg:py-24">
           <div>
-            <p className="text-sm font-medium tracking-wide text-teal-dark uppercase">UAE / GCC licensing &amp; placement</p>
+            <p className="text-sm font-medium tracking-wide text-teal-dark uppercase">
+              UAE / GCC licensing &amp; placement
+            </p>
             <h1 className="mt-4 text-4xl font-semibold leading-tight sm:text-5xl">
-              Get licensed in the UAE &amp; GCC — and placed in a role that fits.
+              Get licensed in the UAE &amp; GCC — and matched into a role that fits.
             </h1>
             <p className="mt-5 max-w-xl text-lg leading-8 text-slate-600">{site.tagline}</p>
-            <p className="mt-3 max-w-xl text-sm leading-6 text-slate-500">
-              Official licences are issued by DHA, DOH, MOHAP or other authorities. We prepare your file and connect you with hospitals and clinics for successful placement.
+            <p className="mt-3 max-w-xl text-xs leading-5 text-slate-400">
+              Official licences are issued by DHA, DOH, MOHAP or other authorities. We prepare your file
+              and match you with hospitals and clinics.
             </p>
-            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-              <CtaLink href="/eligibility">
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
+              <CtaLink
+                href="/eligibility"
+                className="h-12 px-6 text-base font-semibold shadow-sm"
+              >
                 Map your pathway <ArrowRight data-icon="inline-end" />
               </CtaLink>
-              <CtaLink href="/contact" variant="outline">
+              <CtaLink
+                href="/contact"
+                variant="outline"
+                className="h-12 px-6 text-base font-medium text-slate-700"
+              >
                 Book a free consultation
               </CtaLink>
             </div>
@@ -38,7 +48,7 @@ export default function HomePage() {
               href="/candidates"
               icon={<Stethoscope className="size-5" />}
               title="I am a healthcare professional"
-              body="Doctors, nurses, dentists and allied health: licensing pathways plus career matching into a successful UAE role."
+              body="Doctors, nurses, dentists and allied health — understand your licensing pathway and get matched into suitable UAE roles."
             />
             <PathCard
               href="/hospitals"
