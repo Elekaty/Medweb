@@ -12,8 +12,8 @@ const principles = [
     body: "We prepare files. DHA, DOH, MOHAP, SCFHS and peers issue licences. That line is on every package and portal screen because accuracy is the product.",
   },
   {
-    title: "Honest career matching",
-    body: "Matching support is optional. Facilities hire. Completing a licensing file and receiving an offer are separate outcomes, and we say so up front.",
+    title: "Successful career placement",
+    body: "We match licence-ready professionals with hospitals and clinics so licensing leads into a role that fits.",
   },
   {
     title: "Fees stay visible",
@@ -30,18 +30,17 @@ export default function AboutPage() {
     <>
       <PageHero
         kicker="About"
-        title="Confidence through accuracy — for clinicians and hospitals."
-        description="MedLicense Hub is a working name for an independent UAE/GCC healthcare licensing and recruitment-support practice. We prepare files. Authorities issue licences."
+        title="Licensing and placement, handled with accuracy."
+        description="MedLicense Hub is an independent UAE/GCC healthcare licensing and placement practice. We prepare files. Authorities issue licences. We match clinicians into hospital and clinic roles."
       />
       <Section>
         <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
           <div>
             <h2 className="text-2xl font-semibold">Our story</h2>
             <p className="mt-4 text-sm leading-7 text-slate-600">
-              International clinicians often pay for the wrong exam or the wrong authority after hearing a
-              “guaranteed job” pitch. This platform is a trust-first front door: dual paths for professionals
-              and hospitals, plain-language authorities, and a portal that shows case status with accuracy
-              as the product.
+              International clinicians often pay for the wrong exam or the wrong authority. This platform
+              is a front door for both: structured licensing for professionals, and successful placement
+              into hospitals and clinics that need licence-ready talent.
             </p>
             <p className="mt-4 text-sm leading-7 text-slate-600">
               Replace this story with the founders’ actual background before public launch. Until then, treat

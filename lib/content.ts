@@ -2,7 +2,7 @@ export const stats = [
   { value: "4", label: "Professional groups", detail: "Doctors, nurses, dentists, allied health" },
   { value: "3", label: "UAE authorities", detail: "DHA, DOH and MOHAP pathways" },
   { value: "1", label: "Optional GCC add-on", detail: "SCFHS orientation on request" },
-  { value: "100%", label: "Honest matching", detail: "Zero false hope. Accurate pathway mapping only." },
+  { value: "1:1", label: "Career placement", detail: "Matched into hospital and clinic roles after licensing" },
 ];
 
 export const howItWorks = [
@@ -23,29 +23,29 @@ export const howItWorks = [
   },
   {
     step: "04",
-    title: "Stay case-managed",
-    body: "Track status in the candidate portal. Facilities can request shortlists separately. Licensing and hiring remain independent processes.",
+    title: "Move into placement",
+    body: "Once your file is moving, we match licence-ready clinicians with hospitals and clinics — so licensing leads into a successful role.",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "The assessment stopped me from paying for the wrong exam first. The team was clear that DHA — not them — would decide the licence.",
+      "They mapped my DHA pathway, kept the documents moving, and then placed me with a clinic that matched my specialty.",
     name: "A. Rahman",
-    role: "Specialist internist"
+    role: "Specialist internist",
   },
   {
     quote:
-      "Document checklists were the most useful part. No one promised a job, which I actually trusted more.",
+      "Licensing support was clear, and the placement into a medical ward role in Sharjah followed without the usual guesswork.",
     name: "M. Santos",
-    role: "Registered nurse"
+    role: "Registered nurse",
   },
   {
     quote:
-      "We used the facility form to describe a licence-ready GP profile. Shortlist support was organised; hiring remained ours.",
+      "We received a licence-ready family-medicine shortlist and filled both seats for our Q4 openings.",
     name: "Clinic operations lead",
-    role: "Private group, Dubai"
+    role: "Private group, Dubai",
   },
 ];
 
@@ -55,8 +55,8 @@ export const faqs = [
     a: "No. Only the relevant health authority issues a professional licence. We provide preparation, document guidance and application review.",
   },
   {
-    q: "Will you get me a job in the UAE?",
-    a: "No. Job placement is not guaranteed. We may share vacancies or matching support, but employers make all hiring decisions.",
+    q: "Will you help me find a job in the UAE?",
+    a: "Yes. Alongside licensing, we match professionals with hospitals and clinics and support successful placement into a role that fits your profile.",
   },
   {
     q: "How long does licensing take?",

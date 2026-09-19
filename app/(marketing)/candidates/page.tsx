@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { CtaLink } from "@/components/cta-link";
-import { JobNotice } from "@/components/notice";
 import { PageHero, Section } from "@/components/section";
 
 export const metadata: Metadata = {
@@ -17,8 +16,8 @@ const supports = [
     body: "Study roadmaps where an exam or assessment applies, so you sit prepared and in control of the next step.",
   },
   {
-    title: "Career matching (optional)",
-    body: "Share vacancies and facility interest when you want matching support. Employers hire; we keep that process honest.",
+    title: "Successful placement",
+    body: "Career matching with hospitals and clinics so licensing leads into a role that fits your specialty and preferred emirate.",
   },
 ];
 
@@ -27,8 +26,8 @@ export default function CandidatesPage() {
     <>
       <PageHero
         kicker="For professionals"
-        title="Structured licensing support built for clinicians."
-        description="Doctors, nurses, dentists and allied health professionals work with a case manager to prepare UAE authority applications — with the same clarity for every file."
+        title="Get licensed — then placed in a UAE role that fits."
+        description="Doctors, nurses, dentists and allied health professionals work with a case manager on authority applications and successful hospital or clinic placement."
       >
         <div className="flex flex-col gap-3 sm:flex-row">
           <CtaLink href="/eligibility">Map your pathway</CtaLink>
@@ -46,7 +45,6 @@ export default function CandidatesPage() {
             </div>
           ))}
         </div>
-        <JobNotice className="mt-8" />
       </Section>
     </>
   );

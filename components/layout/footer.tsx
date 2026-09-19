@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { BrandLogo } from "@/components/brand-logo";
-import { jobDisclaimer, licenseDisclaimer, nav, site } from "@/lib/site";
+import { licenseDisclaimer, nav, site } from "@/lib/site";
 
 export function Footer() {
   return (
@@ -9,9 +9,7 @@ export function Footer() {
         <div className="lg:col-span-2">
           <BrandLogo light />
           <p className="mt-4 max-w-md text-sm leading-6 text-white/75">{site.tagline}</p>
-          <p className="mt-4 max-w-xl text-xs leading-5 text-white/55">
-            {licenseDisclaimer} {jobDisclaimer}
-          </p>
+          <p className="mt-4 max-w-xl text-xs leading-5 text-white/55">{licenseDisclaimer}</p>
         </div>
         <div>
           <p className="text-sm font-semibold">Explore</p>

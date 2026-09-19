@@ -152,7 +152,7 @@ export function recommendPathway(answers: EligibilityAnswers): PathwayResult {
     bullets: [
       "Complete a document gap review before paying vendor fees",
       "Match the authority to where you actually intend to work",
-      "Job matching, if requested, is optional and never guaranteed",
+      "Career matching toward a successful hospital or clinic placement",
     ],
   };
 }

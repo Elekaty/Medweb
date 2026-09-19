@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { PortalShell } from "@/components/portal/portal-shell";
 import { ConsultationForm } from "@/components/forms/consultation-form";
-import { JobNotice } from "@/components/notice";
 import { StatusPill } from "@/components/ui/status-pill";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { facilityRequest } from "@/lib/portal";
@@ -31,9 +30,8 @@ export function FacilityPortal() {
     <PortalShell session={session}>
       <h1 className="text-3xl font-semibold">Facility workspace</h1>
       <p className="mt-2 text-sm text-slate-600">
-        Mock request status for {facilityRequest.organisation}. Hiring decisions stay with you.
+        Mock request status for {facilityRequest.organisation}.
       </p>
-      <JobNotice className="mt-6" />
 
       <Card className="mt-8">
         <CardHeader>

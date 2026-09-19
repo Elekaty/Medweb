@@ -27,12 +27,11 @@ export const packages: Package[] = [
       "Suggested authority pathway (DHA, DOH, MOHAP or combination)",
       "Document checklist tailored to your profession",
       "Written next-step plan and 30-minute consult",
+      "Introduction to placement options after your assessment",
     ],
     exclusions: [
       "Authority, DataFlow, exam or translation fees",
       "Submission of an official licence application",
-      "Job search or interview representation",
-      "Any guarantee of eligibility or outcome",
     ],
   },
   {
@@ -51,12 +50,12 @@ export const packages: Package[] = [
       "Exam (Prometric/CBT) preparation roadmap",
       "Application form review before you submit to DHA",
       "Status updates through your candidate portal",
+      "Career matching toward a successful hospital or clinic placement",
     ],
     exclusions: [
       "Official DHA, DataFlow or exam fees paid to third parties",
       "Good standing, attestation or translation costs",
-      "A job offer, visa or Emirates ID",
-      "Guarantee that DHA will issue a licence",
+      "Visa and Emirates ID processing",
     ],
   },
   {
@@ -73,12 +72,11 @@ export const packages: Package[] = [
       "PSV and document completeness checks",
       "Exam and assessment guidance where applicable",
       "Application review and portal status tracking",
+      "Career matching toward a successful Abu Dhabi placement",
     ],
     exclusions: [
       "Official DOH and third-party processing fees",
-      "Employer offer letters or facility privileges",
       "Immigration or visa services",
-      "Guarantee of licence issuance",
     ],
   },
   {
@@ -95,11 +93,10 @@ export const packages: Package[] = [
       "Document and PSV coordination support",
       "Exam booking guidance where required",
       "Application review before submission",
+      "Career matching toward a successful hospital or clinic placement",
     ],
     exclusions: [
       "Official MOHAP and vendor fees",
-      "Job placement or facility contracting",
-      "Guarantee of exam pass or licence grant",
     ],
   },
   {
@@ -117,12 +114,11 @@ export const packages: Package[] = [
       "Shared document set with authority-specific gaps flagged",
       "Sequenced exam and PSV plan to reduce duplicate effort",
       "Two application reviews",
+      "Career matching across the emirates you are targeting",
     ],
     exclusions: [
       "All official authority and exam fees (two sets may apply)",
       "Privilege to practice at a named facility",
-      "Job placement in either emirate",
-      "Guarantee that either licence will be issued",
     ],
   },
   {
@@ -140,12 +136,12 @@ export const packages: Package[] = [
       "Sequenced exam and PSV calendar",
       "Three application reviews and portal tracking",
       "Quarterly strategy call during the programme",
+      "Career matching toward a successful GCC placement",
     ],
     exclusions: [
       "Official fees payable to DHA, DOH, MOHAP and vendors",
       "SCFHS (KSA) filing unless scoped separately",
-      "Employment, visa or housing",
-      "Any guarantee of licensing outcomes",
+      "Visa and housing",
     ],
   },
 ];

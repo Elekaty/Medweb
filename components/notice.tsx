@@ -1,4 +1,3 @@
-import { jobDisclaimer, licenseDisclaimer } from "@/lib/site";
 import { cn } from "@/lib/utils";
 
 export function Notice({
@@ -22,13 +21,5 @@ export function Notice({
     >
       {children}
     </p>
-  );
-}
-
-export function JobNotice({ className }: { className?: string }) {
-  return (
-    <Notice tone="warning" className={className}>
-      {jobDisclaimer} {licenseDisclaimer}
-    </Notice>
   );
 }

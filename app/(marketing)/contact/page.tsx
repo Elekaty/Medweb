@@ -14,7 +14,7 @@ export default function ContactPage() {
       <PageHero
         kicker="Contact"
         title="Book a free consultation."
-        description="Tell us whether you are a clinician or a facility. We will map an accurate licensing conversation — with the same clarity we use on every file."
+        description="Tell us whether you are a clinician or a facility. We will map your licensing pathway and placement options with the same clarity we use on every file."
       />
       <Section>
         <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr]">
@@ -33,7 +33,7 @@ export default function ContactPage() {
               </p>
             </div>
             <Notice className="mt-6">
-              Official licences are issued only by the relevant authorities. Job placement is not guaranteed.
+              Official licences are issued by DHA, DOH, MOHAP or other authorities. We prepare your file and support successful placement with hospitals and clinics.
             </Notice>
           </div>
           <ConsultationForm

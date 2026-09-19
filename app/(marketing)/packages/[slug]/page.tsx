@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { CtaLink } from "@/components/cta-link";
-import { JobNotice } from "@/components/notice";
 import { PageHero, Section } from "@/components/section";
 import { getPackage, packages } from "@/lib/packages";
 
@@ -57,7 +56,6 @@ export default async function PackageDetailPage({ params }: Props) {
           </div>
         </div>
         <p className="mt-8 text-sm text-slate-600">Audience: {item.audience}</p>
-        <JobNotice className="mt-6" />
         <div className="mt-8 flex flex-col gap-3 sm:flex-row">
           <CtaLink href="/contact">Book a free consultation</CtaLink>
           <CtaLink href="/eligibility" variant="outline">

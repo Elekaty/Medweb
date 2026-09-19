@@ -2,7 +2,6 @@ import Link from "next/link";
 import { ArrowRight, Building2, Stethoscope } from "lucide-react";
 import { CtaLink } from "@/components/cta-link";
 import { PackageCard } from "@/components/packages/package-card";
-import { JobNotice } from "@/components/notice";
 import { Section } from "@/components/section";
 import { howItWorks, stats, testimonials } from "@/lib/content";
 import { packages } from "@/lib/packages";
@@ -16,16 +15,13 @@ export default function HomePage() {
       <section className="border-b bg-[linear-gradient(180deg,#f8fafc_0%,#ffffff_100%)]">
         <div className="mx-auto grid max-w-6xl gap-10 px-4 py-16 sm:px-6 lg:grid-cols-[1.1fr_0.9fr] lg:px-8 lg:py-24">
           <div>
-            <p className="text-sm font-medium tracking-wide text-teal-dark uppercase">UAE / GCC licensing consultancy</p>
+            <p className="text-sm font-medium tracking-wide text-teal-dark uppercase">UAE / GCC licensing &amp; placement</p>
             <h1 className="mt-4 text-4xl font-semibold leading-tight sm:text-5xl">
-              Get licensed in the UAE &amp; GCC with clear, structured support — no empty promises.
+              Get licensed in the UAE &amp; GCC — and placed in a role that fits.
             </h1>
             <p className="mt-5 max-w-xl text-lg leading-8 text-slate-600">{site.tagline}</p>
-            <p className="mt-3 max-w-xl text-sm font-medium text-navy-deep">
-              Zero false hope. Accurate pathway mapping only.
-            </p>
             <p className="mt-3 max-w-xl text-sm leading-6 text-slate-500">
-              Official licences are issued only by DHA, DOH, MOHAP or other authorities. Job placement is not guaranteed.
+              Official licences are issued by DHA, DOH, MOHAP or other authorities. We prepare your file and connect you with hospitals and clinics for successful placement.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <CtaLink href="/eligibility">
@@ -42,13 +38,13 @@ export default function HomePage() {
               href="/candidates"
               icon={<Stethoscope className="size-5" />}
               title="I am a healthcare professional"
-              body="Doctors, nurses, dentists and allied health: map DHA, DOH and MOHAP pathways, documents and the right support package."
+              body="Doctors, nurses, dentists and allied health: licensing pathways plus career matching into a successful UAE role."
             />
             <PathCard
               href="/hospitals"
               icon={<Building2 className="size-5" />}
               title="I represent a hospital or clinic"
-              body="Request licence-ready shortlists and outline staffing needs. You stay the employer; we stay a structured partner."
+              body="Receive licence-ready shortlists and fill openings with clinicians already progressing through DHA, DOH or MOHAP."
             />
           </div>
         </div>
@@ -86,7 +82,7 @@ export default function HomePage() {
         <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
           <div>
             <p className="text-sm font-medium tracking-wide text-teal-dark uppercase">Packages</p>
-            <h2 className="mt-2 text-3xl font-semibold">Structured support packages for real licensing pathways.</h2>
+            <h2 className="mt-2 text-3xl font-semibold">Licensing packages that open the door to placement.</h2>
           </div>
           <CtaLink href="/packages" variant="outline" size="lg">
             Compare packages
@@ -97,7 +93,6 @@ export default function HomePage() {
             <PackageCard key={item.slug} item={item} />
           ))}
         </div>
-        <JobNotice className="mt-8" />
       </Section>
 
       <Section muted>
@@ -120,10 +115,10 @@ export default function HomePage() {
 
       <Section>
         <div className="rounded-2xl bg-navy-deep px-6 py-12 text-white sm:px-10">
-          <h2 className="text-3xl font-semibold text-white">Ready to map your licensing pathway?</h2>
+          <h2 className="text-3xl font-semibold text-white">Ready to start licensing and placement?</h2>
           <p className="mt-3 max-w-2xl text-white/75">
-            Book a free consultation or see your likely pathway in minutes. Accurate next steps —
-            the same clarity for clinicians and hospitals.
+            Book a free consultation or map your pathway in minutes. We help clinicians get licensed
+            and placed — and help hospitals hire licence-ready talent.
           </p>
           <div className="mt-6 flex flex-col gap-3 sm:flex-row">
             <CtaLink href="/contact" className="bg-white text-navy-deep hover:bg-slate-100">

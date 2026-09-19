@@ -43,5 +43,5 @@ export const facilityRequest = {
   organisation: "Gulf Care Medical Group",
   contact: "Noura Al Mazrouei",
   status: "In review",
-  summary: "Seeking two DHA-ready family medicine physicians for Q4 clinic openings. No candidate has been promised.",
+  summary: "Seeking two DHA-ready family medicine physicians for Q4 clinic openings.",
 };

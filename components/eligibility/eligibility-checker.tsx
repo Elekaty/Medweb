@@ -11,7 +11,6 @@ import {
 } from "@/lib/eligibility";
 import { getPackage } from "@/lib/packages";
 import { CtaLink } from "@/components/cta-link";
-import { JobNotice } from "@/components/notice";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Stepper } from "@/components/ui/stepper";
@@ -105,7 +104,6 @@ export function EligibilityChecker() {
             <p className="text-sm text-slate-600">
               Recommended package to review: <strong>{recommended.name}</strong> ({recommended.price})
             </p>
-            <JobNotice />
             <div className="flex flex-col gap-2 sm:flex-row">
               <CtaLink href={`/packages/${recommended.slug}`}>View package</CtaLink>
               <CtaLink href="/contact" variant="outline">

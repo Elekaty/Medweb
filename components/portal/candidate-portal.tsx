@@ -36,7 +36,7 @@ export function CandidatePortal() {
         {candidateCase.profession} · {candidateCase.package}
       </p>
       <Notice className="mt-6">
-        Mock data for Phase 1. Official licences are issued only by DHA / DOH / MOHAP. Job placement is not guaranteed.
+        Mock data for Phase 1. Official licences are issued by DHA / DOH / MOHAP. Placement support continues once your file is moving.
       </Notice>
 
       <div className="mt-8 grid gap-4 lg:grid-cols-3">

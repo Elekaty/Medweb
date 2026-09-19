@@ -9,7 +9,7 @@ export const consultationSchema = z.object({
   message: z.string().min(10, "Add a little more detail so we can prepare"),
   consent: z
     .boolean()
-    .refine((value) => value === true, "Please confirm you understand we do not issue licences or guarantee jobs"),
+    .refine((value) => value === true, "Please confirm you understand how licensing and placement support works"),
 });
 
 export type ConsultationValues = z.infer<typeof consultationSchema>;

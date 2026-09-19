@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { ConsultationForm } from "@/components/forms/consultation-form";
-import { JobNotice } from "@/components/notice";
 import { PageHero, Section } from "@/components/section";
 
 export const metadata: Metadata = {
@@ -9,16 +8,16 @@ export const metadata: Metadata = {
 
 const points = [
   {
-    title: "Licence-aware shortlists",
-    body: "Describe the role and preferred authority. We help you identify who is realistically licence-ready, so your hiring team stays in control of the seat.",
+    title: "Licence-ready shortlists",
+    body: "Describe the role and preferred authority. We introduce clinicians already progressing through UAE licensing so you can fill seats faster.",
   },
   {
-    title: "How staffing support works",
-    body: "You send requirements. We may introduce candidates already progressing through a licensing programme. Interviews, offers, visas and privileging stay with the facility.",
+    title: "How placement works",
+    body: "You send requirements. We match candidates from our licensing programmes. Interviews, offers and privileging stay coordinated with your team.",
   },
   {
-    title: "Authority-first status",
-    body: "A candidate is licensed when the authority says so. Start dates stay tied to real DHA, DOH or MOHAP queues — shared with you as they stand.",
+    title: "Successful hires",
+    body: "Facilities use MedLicense Hub to place licence-ready doctors, nurses, dentists and allied health into lasting roles.",
   },
 ];
 
@@ -27,8 +26,8 @@ export default function HospitalsPage() {
     <>
       <PageHero
         kicker="For hospitals & clinics"
-        title="Build licence-ready shortlists with a partner who respects your hire."
-        description="MedLicense Hub supports facilities that need clinicians already progressing through UAE licensing. You stay the employer. Matching is structured support — with zero false hope."
+        title="Fill openings with licence-ready clinicians."
+        description="MedLicense Hub supports facilities that need clinicians already progressing through UAE licensing — and helps you complete successful placements."
       />
       <Section>
         <div className="grid gap-4 md:grid-cols-3">
@@ -39,11 +38,10 @@ export default function HospitalsPage() {
             </div>
           ))}
         </div>
-        <JobNotice className="mt-8" />
         <div className="mt-12 max-w-2xl">
           <h2 className="text-2xl font-semibold">Request a shortlist or send requirements</h2>
           <p className="mt-2 mb-6 text-sm text-muted-foreground">
-            Phase 1 stores nothing on a server. Use this form to see the workflow; connect your backend when ready.
+            Tell us the role, emirate and authority. We will prepare a licence-ready shortlist for successful placement.
           </p>
           <ConsultationForm
             defaultAudience="facility"

@@ -36,8 +36,7 @@ export function ConsultationForm({
     return (
       <Notice>
         Thank you. This is a Phase 1 confirmation only — no message was sent to a live inbox. A
-        consultant would normally reply within one working day. We still cannot issue a licence or
-        guarantee a job.
+        consultant would normally reply within one working day.
       </Notice>
     );
   }
@@ -85,8 +84,8 @@ export function ConsultationForm({
       </Field>
       <label className="flex items-start gap-2 text-sm leading-6 text-slate-600">
         <input type="checkbox" className="mt-1" {...register("consent")} />
-        I understand MedLicense Hub does not issue official licences and does not guarantee job
-        placement.
+        I understand official licences are issued by DHA, DOH, MOHAP or other authorities, and MedLicense
+        Hub prepares applications and supports career placement.
       </label>
       {errors.consent ? <p className="text-sm text-destructive">{errors.consent.message}</p> : null}
       <Button type="submit" size="xl" className="justify-self-start">
